@@ -48,7 +48,7 @@ def Test(Test_root, label_path,epoch):
     os.environ['CUDA_VISIBLE_DEVICES'] = '0'
     testmodel = MSLT().cuda()
     model = nn.DataParallel(testmodel)
-    testmodel.load_state_dict(torch.load('snapshots/'+epoch))
+    testmodel.load_state_dict(torch.load('pretrained_model/'+epoch))
     lp = util_of_lpips('alex')
 
     time1 = 0
@@ -131,6 +131,6 @@ if __name__ == '__main__':
     test_path = './data/testimage/'
     label_path = "./data/testimage/label/"
     epochlist = []
-    epochlist.append("mslt.pth")
+    epochlist.append("mslt+.pth")
     for epoch in epochlist:
         Test(test_path, label_path, epoch)
