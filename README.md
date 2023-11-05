@@ -2,7 +2,7 @@
 WACV 2024 (Official implementation of "4K-Resolution Photo Exposure Correction at 125 FPS with ~ 8K Parameters")
 
 ## 
-![]("https://github.com/Zhou-Yijie/MSLTNet/blob/main/fig1.jpg")![]("https://github.com/Zhou-Yijie/MSLTNet/blob/main/fig2.jpg")
+![](https://github.com/Zhou-Yijie/MSLTNet/blob/main/fig1.jpg)![](https://github.com/Zhou-Yijie/MSLTNet/blob/main/fig2.jpg)
 
 
 ## Dependencies and Installation
