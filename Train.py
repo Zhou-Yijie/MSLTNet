@@ -134,9 +134,9 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--validpath', type=str, default="./data/validation/")
-    parser.add_argument('--validlabel', type=str, default="./data/validation/label/")
-    parser.add_argument('--datapath', type=str, default="./data/imagepatch_512/")
+    parser.add_argument('--validpath', type=str, default="./data/MEdata/validation/")
+    parser.add_argument('--validlabel', type=str, default="./data/MEdata/validation/label/")
+    parser.add_argument('--datapath', type=str, default="./data/MEdata/imagepatch_512/")
     parser.add_argument('--lr', type=float, default=0.001)
     parser.add_argument('--weight_decay', type=float, default=0.9)
     parser.add_argument('--grad_clip_norm', type=float, default=1)

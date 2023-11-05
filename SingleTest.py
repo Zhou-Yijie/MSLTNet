@@ -128,8 +128,8 @@ def Test(Test_root, label_path,epoch):
 
 if __name__ == '__main__':
     ssl._create_default_https_context = ssl._create_unverified_context
-    test_path = './data/testimage/'
-    label_path = "./data/testimage/label/"
+    test_path = './data/MEdata/ME_test/'
+    label_path = "./data/MEdata/ME_test/label_c/"
     epochlist = []
     epochlist.append("mslt+.pth")
     for epoch in epochlist:
