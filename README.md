@@ -5,7 +5,7 @@ WACV 2024 (Official implementation of "4K-Resolution Photo Exposure Correction a
 
 <div align="center">
 
-<img src="https://github.com/Zhou-Yijie/MSLTNet/blob/main/fig1.jpg" height="300px" ><img src="https://github.com/Zhou-Yijie/MSLTNet/blob/main/fig1.jpg"height="300px" >
+<img src="https://github.com/Zhou-Yijie/MSLTNet/blob/main/fig1.jpg" height="300px" ><img src="https://github.com/Zhou-Yijie/MSLTNet/blob/main/fig2.jpg" height="300px" >
 
 </div>
 
