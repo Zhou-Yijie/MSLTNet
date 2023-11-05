@@ -3,7 +3,7 @@ WACV 2024 (Official implementation of "4K-Resolution Photo Exposure Correction a
 
 ## 
 <figure class="half">
-    <img src="https://github.com/Zhou-Yijie/MSLTNet/blob/main/fig1.jpg" width=0/>
+    <img src="https://github.com/Zhou-Yijie/MSLTNet/blob/main/fig1.jpg" width=100/>
     <img src="https://github.com/Zhou-Yijie/MSLTNet/blob/main/fig2.jpg" width=200>
 </figure>
 
