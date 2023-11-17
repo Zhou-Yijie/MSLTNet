@@ -32,3 +32,13 @@ python test_model.py
 ```
 python Train.py
 ```
+## Citation
+If this work is helpful for your research, please consider citing:
+```
+@inproceedings{zhou2024mslt,
+  title={4K-Resolution Photo Exposure Correction at 125 FPS with ~ 8K Parameters},
+  author={Zhou, Yijie and Li, Chao and Liang, Jin and Xu, Tianyi and Liu, Xin and Xu, Jun},
+  booktitle={Winter Conference on Applications of Computer Vision (WACV)},
+  year={2024}
+}
+```
