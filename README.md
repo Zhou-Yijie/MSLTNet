@@ -18,7 +18,7 @@ conda activate mslt
 pip3 install -r requirements.txt
 ```
 ## Prepare Dataset
-Download ME Dataset from [[Baidu Disk](https://pan.baidu.com/s/1tgVVLpZnUsm1pgi8Df63EQ?pwd=m7ai)] , unzip the file and put it in data/ 
+Download ME Dataset from [[Baidu Disk](https://pan.baidu.com/s/1tgVVLpZnUsm1pgi8Df63EQ?pwd=m7ai)] or [[google drive](https://drive.google.com/file/d/1dFqOrIdkPZ2seYRN-Hldl8B7tGWNurlM/view?usp=drive_link)] , unzip the file and put it in data/ 
 ## Quick Inference
 ```
 # Inference On ME Dataset
