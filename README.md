@@ -1,5 +1,5 @@
 # MSLTNet
-WACV 2024 (Official implementation of "4K-Resolution Photo Exposure Correction at 125 FPS with ~ 8K Parameters") [[arxiv](https://arxiv.org/abs/2311.08759)]
+WACV 2024 (Official implementation of "4K-Resolution Photo Exposure Correction at 125 FPS with ~ 8K Parameters") [[arxiv](https://arxiv.org/abs/2311.08759)] [[Paper](https://openaccess.thecvf.com/content/WACV2024/html/Zhou_4K-Resolution_Photo_Exposure_Correction_at_125_FPS_With_8K_Parameters_WACV_2024_paper.html)]
 
 ## 
 #### A quick glimpse of comparison on the ME dataset:
