@@ -15,12 +15,13 @@ from pytorch_ssim.wavelet_ssim_loss import WSloss
 import torchvision
 import cv2 as cv
 import thop
+
 if __name__ == "__main__":
     os.environ['CUDA_VISIBLE_DEVICES'] = '0'
     model = MSLT().cuda()
-    a = torch.zeros(1, 3, 3840, 2160).cuda()
+    # a = torch.zeros(1, 3, 3840, 2160).cuda()
     #a = torch.zeros(1, 3, 1024, 1024).cuda()
-    #a = torch.zeros(1, 3, 512, 512).cuda()
+    a = torch.zeros(1, 3, 512, 512).cuda()
     flops, params = thop.profile(model,inputs=(a,))
     print("flops","params",flops,params)
     starter, ender = torch.cuda.Event(enable_timing=True), torch.cuda.Event(enable_timing=True)

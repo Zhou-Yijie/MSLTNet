@@ -1,1 +1,6 @@
-data
+data/
+__pycache__/
+dataset/__pycache__/
+singleresults/
+pytorch_ssim/__pycache__/
+pyramid_structure/__pycache__/

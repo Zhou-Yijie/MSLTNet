@@ -12,7 +12,7 @@ WACV 2024 (Official implementation of "4K-Resolution Photo Exposure Correction a
 ```
 # create new anaconda env
 conda create -n mslt python=3.7 -y
-conda activate mslt
+source activate mslt
 
 # install python dependencies
 pip3 install -r requirements.txt
